@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Training Programme</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: url(https://cdn.pixabay.com/photo/2021/08/25/11/30/plank-6573171_960_720.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0px;
+            padding:0px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 1000px;
+ 
+        }
+        .left{
+            border: 12px hidden green;
+            border: s;
+            display: block;
+            width: 150px;
+            margin: 10px 0px 0px 10px;
+        }
+
+        .left img{
+            width: 150px;
+        }
+        .center{
+            border: 10px hidden red;
+            display: block;
+            width: 600px;
+            position: absolute;
+            left: 33%;
+            top: 3%;
+                
+        }
+        .right{
+            border: 12px hidden greenyellow;
+            position: absolute;
+            right: 15px;
+            top: 5%;
+            
+        }
+        #search{
+            color: rgb(228, 119, 119);
+            
+        }
+        .Navbar li{
+            display: inline-block;
+        }
+        .Navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 25px;
+        }
+        .Navbar li a:hover{
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+        .main{
+            margin-left: 25%;
+            margin-top: 250px;
+            width: 800px;
+            
+        }
+        p{
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+       .register{
+           margin-top: -10px;
+           margin-left: 43%;
+            width: 200px;
+            height: 60px;
+           padding: 20px;
+       }
+       #btn{
+           width: 200px;
+           height: 60px;
+           font-size: 18px;
+           color: white;
+           background-color: red;
+           font-family: cursive;
+           border-radius: 25px;
+
+       }
+       #btn:hover{
+           cursor: pointer;
+           color: rgb(231, 62, 20);
+           background-color: rgb(41, 207, 199);
+       }
+       .form_group{
+           display: inline;
+           margin-left: 40%;
+           padding: 5px;
+           width: 200px;
+       }
+       .form_group input{
+        font-size: 22px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+       }
+       .right input{
+           padding: 10px;
+           font-size: 20px;
+           
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/98/80/red-logo-man-running-for-fitness-club-vector-6019880.jpg" alt="" class="image">
+        </div>
+        <div class="center">
+                <ul class="Navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Diet</a></li>
+                <li><a href="#">Challenges</a></li>
+                
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="Search for help" id="search">
+        </div>
+    </header>
+    <div class="main">
+        <p id="line">He who has a why can bear almost any how.</p>  
+    </div>
+    <div class="form">
+        <form action="noaction.php">
+            <div class="form_group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your Email id">
+            </div>
+    <div class="register">
+        <button id="btn">Register</button>
+    </div>
+</body>
+</html>
